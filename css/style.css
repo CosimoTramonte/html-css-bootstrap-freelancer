@@ -1,0 +1,33 @@
+.debug{
+    min-height: 80px;
+    background-color: rgba(47, 240, 134, 0.404);
+    border: 1px solid black;
+}
+
+.ct-container1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ct-container2{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.ct-jumbotron{
+    background-color: rgba(47, 240, 134, 0.404);
+    height:500px ;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .ct-container1{
+        width: 100%;
+        margin: 0;
+    }
+
+    .ct-container2{
+        width: 100%;
+        margin: 0;
+    }
+}
