@@ -4,32 +4,15 @@
     border: 1px solid black;
 }
 
-.ct-container1{
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-}
 
-.ct-container2{
-    width: 75%;
+.ct-container{
+    width: 70%;
     margin: 0 auto;
-    overflow: hidden;
+    max-width: 1200px;
 }
 
 .ct-jumbotron{
     background-color: rgba(47, 240, 134, 0.404);
     height:500px ;
     border: 1px solid black;
-}
-
-@media screen and (max-width: 768px) {
-    .ct-container1{
-        width: 100%;
-        margin: 0;
-    }
-
-    .ct-container2{
-        width: 100%;
-        margin: 0;
-    }
 }
