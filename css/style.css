@@ -44,7 +44,7 @@
 
 header{
     background-color: #2C3E50;
-    height: 70px;
+    height: 80px;
     color: white;
 }
 
@@ -52,7 +52,12 @@ header nav{
     background-color: #2C3E50 !important;
 }
 
-
+.navbar{
+    --bs-navbar-color:white;
+    --bs-navbar-active-color:white;
+    --bs-navbar-brand-hover-color:white;
+    --bs-navbar-toggler-border-color:white;
+}
 
 /*JUMBOTRON*/
 
