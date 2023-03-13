@@ -76,6 +76,11 @@ main .portfolio{
     position: relative;
 }
 
+.portfolio .container .row .col-md-6 div{
+    width: 100%;
+    height: 100%;
+}
+
 .portfolio .container .row .col-md-6 div div{
     position: absolute;
 }
