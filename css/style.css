@@ -73,16 +73,31 @@ main .portfolio{
     width: 100%;
     height: 92%;
     border-radius: 10px;
-    position: relative;
 }
 
 .portfolio .container .row .col-md-6 div{
-    width: 100%;
-    height: 100%;
+    position: relative;
 }
 
 .portfolio .container .row .col-md-6 div div{
+    width: 100%;
+    height: 100%;
     position: absolute;
+    background-color: #1abc9c81;
+    border-radius: 10px;
+    display: none;
+}
+
+.portfolio .container .row .col-md-6 div div .fa-solid{
+    font-size: 50px;
+    color: white;
+}
+
+.portfolio .container .row .col-md-6 div:hover div{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main .about{
